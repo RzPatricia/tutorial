@@ -27,7 +27,7 @@ import com.sistecredito.cursos.tutorials.repositories.TutorialsRepository;
 public class TutorialsController {
 	@Autowired
 	TutorialsRepository tutorialsRepository;
-	// http://localhost:8080/api/tutorials
+	// http://localhost:8080/api/tutorials ejemplo
 
 	@PostMapping("/tutorials")
 	public ResponseEntity<Tutorials> createTutorial(@RequestBody Tutorials tutorialsBody) {
